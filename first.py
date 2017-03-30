@@ -12,4 +12,8 @@ print(x, y)
 def sum(x, y):
     return x+y
 
+
 # We've now got some new code. I'm becoming very frustrated.
+
+def difference(x, y):
+    return x - y
