@@ -4,5 +4,5 @@ print("Hello")
 x = 5
 y = 4
 
-# We want to do something with x and y
-print(x+y)
+# We want to print x and y
+print(x, y)
