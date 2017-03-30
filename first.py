@@ -8,21 +8,22 @@ y = 4
 print(x, y)
 
 
-# Why did you try and add x y and not make a function?
 def sum(x, y):
+    '''
+    Returns the sum of x and y
+    '''
     return x+y
 
 
-# We've now got some new code. I'm becoming very frustrated.
-
-
 def difference(x, y):
+    '''
+    Returns the difference of x and y
+    '''
     return x - y
 
 
-# Yup, you're driving me mad because you don't know what you are doing.
-
 def product(x, y):
+    '''
+    Returns the product of x and y
+    '''
     return x*y
-
-# Is this good enough for you? Are you less angry now?
