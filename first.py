@@ -38,3 +38,13 @@ def factorial(n):
         return 1
     else:
         return n * factorial(n-1)
+
+
+def abs(x):
+    '''
+    Returns the absolute value of x.
+    '''
+    if x >= 0:
+        return x
+    else:
+        return -x
