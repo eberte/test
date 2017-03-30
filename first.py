@@ -27,3 +27,14 @@ def product(x, y):
     Returns the product of x and y
     '''
     return x*y
+
+
+def factorial(n):
+    '''
+    Returns the factorial of n. This is a recursive
+    function.
+    '''
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
