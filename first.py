@@ -48,3 +48,5 @@ def abs(x):
         return x
     else:
         return -x
+
+# We are done with the angry comments.
