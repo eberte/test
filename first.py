@@ -27,3 +27,12 @@ def product(x, y):
     Returns the product of x and y
     '''
     return x*y
+
+def abs(x):
+    '''
+    Returns the absolute value of x.
+    '''
+    if x >= 0:
+        return x
+    else:
+        return -x
